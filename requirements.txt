@@ -1,0 +1,13 @@
+# requirements.txt
+langgraph
+langchain
+langchain-openai
+tavily-python
+fastapi
+uvicorn
+pydantic
+aiohttp
+python-dotenv
+numpy
+scikit-learn
+pymongo
