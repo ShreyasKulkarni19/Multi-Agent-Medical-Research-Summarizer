@@ -3,10 +3,22 @@
 import logging
 
 def setup_logging():
-    logging.basicConfig(
-        level=logging.INFO,  # Use DEBUG if you want more verbose logs
-        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-        datefmt="%H:%M:%S"
-        # Optional: write logs to a file
-        # filename="app.log", filemode="w"
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)  # or logging.DEBUG
+
+    formatter = logging.Formatter(
+        fmt="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S"
     )
+
+    # 1️⃣ Console Handler with UTF-8 encoding
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+    # Avoid Unicode errors in console output
+    console_handler.setLevel(logging.INFO)
+    logger.addHandler(console_handler)
+
+    # 2️⃣ File Handler with UTF-8 encoding
+    file_handler = logging.FileHandler("pipeline.log", mode="a", encoding='utf-8')
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)

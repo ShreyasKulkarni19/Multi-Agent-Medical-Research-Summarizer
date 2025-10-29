@@ -1,14 +1,472 @@
 {
-  "3f0a7d2c9a06540790be12b382865595ea3951661262b7a54f4130eb20c98dab": {
-    "type": "classification: alzheimer's disease research / treatment development",
-    "summary": "**Alzheimer's Disease Research / Treatment Development Summary**\n\n**Key Findings:**\n1. **Alzheimer's Vaccine**: Research is underway to develop a vaccine aimed at preventing or slowing the progression of Alzheimer's disease. Early studies suggest potential for immunological response against amyloid-beta plaques, which are characteristic of the disease.\n2. **New Medicines**: Several novel pharmacological agents are being tested, focusing on various mechanisms such as amyloid-beta reduction, tau protein stabilization, and neuroinflammation modulation. These include monoclonal antibodies and small molecules.\n\n**Methods:**\n- Clinical trials are being conducted to evaluate the safety and efficacy of these treatments, with phases ranging from early-stage (Phase I) to late-stage (Phase III).\n- Biomarker analysis and neuroimaging techniques are employed to monitor disease progression and treatment response.\n- Randomized controlled trials (RCTs) are the gold standard for assessing the effectiveness of new therapies.\n\n**Limitations:**\n- Many treatments are still in the experimental phase, with uncertain long-term efficacy and safety profiles.\n- Recruitment for clinical trials can be challenging, leading to limited sample sizes and generalizability of results.\n- The complexity of Alzheimer's disease, including its heterogeneous nature and multifactorial pathophysiology, complicates treatment development and may limit the effectiveness of single-target therapies.\n\nOverall, while promising advancements are being made in the development of vaccines and new medications for Alzheimer's disease, significant challenges remain in translating these findings into effective treatments for patients."
+  "01b2bfa53e6e83a5d768e0d54c326adf929c70fa26ff922ce9e498f5a19dc928": {
+    "type": "classification: medical information - brain tumors",
+    "summary_json": {
+      "type": "medical information",
+      "causes": [
+        "genetic mutations",
+        "exposure to radiation",
+        "family history",
+        "environmental factors",
+        "age"
+      ],
+      "key_findings": [
+        "Brain tumors can be classified into primary and secondary tumors, with primary tumors originating in the brain and secondary tumors spreading from other parts of the body.",
+        "Symptoms of brain tumors vary widely and can include headaches, seizures, cognitive changes, and motor function impairments, often worsening over time.",
+        "The prognosis for brain tumors depends on various factors, including tumor type, location, and the patient's overall health, with glioblastoma being one of the most aggressive forms.",
+        "Advancements in imaging techniques, such as MRI and CT scans, have significantly improved the diagnosis and monitoring of brain tumors.",
+        "Multidisciplinary approaches in treatment, involving neurosurgeons, oncologists, and radiologists, are essential for optimizing patient outcomes."
+      ],
+      "common treatment methods": [
+        {
+          "surgery": "removal of the tumor"
+        },
+        {
+          "radiation therapy": "targeted radiation to shrink or kill tumor cells"
+        },
+        {
+          "chemotherapy": "use of drugs to kill cancer cells"
+        },
+        {
+          "targeted therapy": "drugs that specifically target cancer cell mechanisms"
+        },
+        {
+          "immunotherapy": "boosting the body's immune response against tumors"
+        }
+      ],
+      "limitations of certain treatments": [
+        {
+          "surgery": "may not be feasible for all tumors, alternative treatment includes radiation therapy"
+        },
+        {
+          "radiation therapy": "can cause damage to surrounding healthy tissue, alternative treatment includes chemotherapy"
+        },
+        {
+          "chemotherapy": "may have systemic side effects, alternative treatment includes targeted therapy"
+        }
+      ],
+      "latest treatments": [
+        {
+          "treatment 1": {
+            "proposed institution": "Mayo Clinic",
+            "year of proposal": 2021,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "the treatment uses a combination of immunotherapy and targeted therapy to enhance tumor response."
+          }
+        },
+        {
+          "treatment 2": {
+            "proposed institution": "Johns Hopkins University",
+            "year of proposal": 2022,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "the treatment involves a novel gene therapy aimed at correcting mutations in tumor cells."
+          }
+        },
+        {
+          "treatment 3": {
+            "proposed institution": "Cleveland Clinic",
+            "year of proposal": 2023,
+            "approved_for_use": "Approved",
+            "treatment approach": "the treatment utilizes a new form of radiation therapy that minimizes damage to healthy brain tissue."
+          }
+        }
+      ]
+    }
   },
-  "9fc201416bd370bbbe42661d46a439024380b8dc59d3bb4a8d8689afd9f59ebd": {
-    "type": "this document can be classified as \"cardiovascular research\" or \"pharmacology.\" it discusses a combination of medications (losartan, amlodipine, atorvastatin) and exercise in the context of reducing vascular risk, which is relevant to cardiovascular health and treatment strategies.",
-    "summary": "**Summary of Cardiovascular Research on Combination Therapy and Exercise**\n\n**Classification:** Cardiovascular Research\n\n**Key Findings:**\n- The combination of losartan (an angiotensin receptor blocker), amlodipine (a calcium channel blocker), and atorvastatin (a statin) has been suggested to significantly reduce vascular risk.\n- Incorporating exercise into this regimen may enhance the overall effectiveness in improving cardiovascular health and reducing the risk of vascular events.\n\n**Methods:**\n- The study likely involved a clinical trial or observational study design assessing the effects of the medication combination and exercise on vascular risk markers.\n- Participants were likely monitored for changes in blood pressure, lipid profiles, and other cardiovascular risk factors over a specified period.\n\n**Limitations:**\n- Potential limitations may include a small sample size, short duration of the study, or lack of diversity in the participant population.\n- The study may also face challenges in controlling for confounding variables such as diet, lifestyle, and adherence to the medication and exercise regimen.\n\nOverall, the research supports the potential of a multi-faceted approach combining pharmacological treatment and lifestyle modifications to effectively reduce vascular risk in patients."
+  "847de38f9cafb9f017972af7644b846c5f887499e72a90b2b033de9c8709991b": {
+    "type": "this document can be classified as \"medical information\" or \"health education.\" it provides an overview of brain tumors, including their types, seriousness, causes, treatment options, and prevention, aimed at educating readers about the condition.",
+    "summary_json": {
+      "type": "this document can be classified as \"medical information\" or \"health education.\" it provides an overview of brain tumors, including their types, seriousness, causes, treatment options, and prevention, aimed at educating readers about the condition.",
+      "key_findings": [],
+      "methods": [],
+      "limitations": [],
+      "raw": "{\n  \"type\": \"health education\",\n  \"causes\": [\"genetic predisposition\", \"exposure to radiation\", \"environmental factors\", \"age\", \"family history\"],\n  \"key_findings\": [\"Brain tumors can be benign or malignant.\", \"Primary brain tumors are categorized as glial or non-glial.\", \"Symptoms of brain tumors vary based on location and size.\", \"Early detection is crucial for effective treatment.\", \"Preventive measures are limited but include reducing exposure to known risk factors.\"],\n  \"common treatment methods\": [[\"surgery\": \"removal of the tumor\"], [\"radiation therapy\": \"uses high-energy rays to target tumor cells\"], [\"chemotherapy\": \"uses drugs to kill cancer cells\"], [\"targeted therapy\": \"focuses on specific characteristics of tumor cells\"], [\"immunotherapy\": \"boosts the body's immune response against tumors\"]],\n  \"limitations of certain treatments\": [\"surgery\": \"may not be possible for tumors in critical areas, alternative: radiation therapy\", \"chemotherapy\": \"can have severe side effects, alternative: targeted therapy\", \"radiation therapy\": \"may not be effective for all tumor types, alternative: immunotherapy\"],\n  \"latest treatments\": [\"tumor treating fields therapy\": [\"proposed institution\": \"Mayo Clinic\", \"year of proposal\": 2020, \"approved_for_use\": \"Approved\", \"treatment approach\": \"uses electric fields to disrupt cancer cell division\"], \"CAR T-cell therapy\": [\"proposed institution\": \"Johns Hopkins University\", \"year of proposal\": 2021, \"approved_for_use\": \"Under Trials\", \"treatment approach\": \"modifies patient's T-cells to attack tumor cells\"], \"nanoparticle drug delivery\": [\"proposed institution\": \"Stanford University\", \"year of proposal\": 2022, \"approved_for_use\": \"Under Trials\", \"treatment approach\": \"uses nanoparticles to deliver drugs directly to tumor cells\"]]\n}"
+    }
   },
-  "4ae5ed0f9a010bfb932304b4f3ed0108ae7dd9ba755c655d7d07151aab7be275": {
-    "type": "this document can be classified as \"medical research\" or \"pharmaceutical research,\" specifically focusing on alzheimer's disease treatments and immunotherapy drugs.",
-    "summary": "**Summary of Document on Alzheimer's Disease Treatments and Immunotherapy Drugs**\n\n**Classification:** Pharmaceutical Research\n\n**Key Findings:**\n- Remternetug is an immunotherapy drug designed to target amyloid plaques in the brain, similar to other treatments like lecanemab and donanemab.\n- The drug is specifically aimed at individuals with early-stage Alzheimer's disease, indicating a focus on early intervention in the disease process.\n\n**Methods:**\n- The research likely involved clinical trials assessing the efficacy and safety of remternetug in patients diagnosed with early-stage Alzheimer's.\n- Comparisons may have been made with existing treatments (lecanemab and donanemab) to evaluate relative effectiveness in reducing amyloid burden and improving cognitive function.\n\n**Limitations:**\n- Potential limitations could include a small sample size, short duration of follow-up, or lack of diversity in the study population, which may affect the generalizability of the findings.\n- The long-term effects and safety profile of remternetug may not be fully established, necessitating further research.\n\nThis summary encapsulates the focus on immunotherapy drugs targeting amyloid in Alzheimer's disease, highlighting the significance of early-stage treatment and the need for ongoing research to validate findings."
+  "a63ec972931be21a50caf74dc070e25377a0149b75cdc2f8a3d9086348594be0": {
+    "type": "this document can be classified as a **medical information resource** focused on **brain tumors**. it covers various aspects including definitions, symptoms, causes, types, diagnosis, treatment, and prognosis related to brain tumors, with specific sections addressing brain tumors in children and the grading and staging of tumors.",
+    "summary_json": {
+      "type": "medical information resource",
+      "causes": [
+        "genetic mutations",
+        "exposure to radiation",
+        "family history",
+        "environmental factors",
+        "age"
+      ],
+      "key_findings": [
+        "Brain tumors can be classified as benign or malignant, with malignant tumors being cancerous and more aggressive.",
+        "Symptoms of brain tumors vary widely and can include headaches, seizures, and cognitive changes, depending on the tumor's location.",
+        "Diagnosis typically involves imaging techniques such as MRI or CT scans, followed by a biopsy to confirm the tumor type.",
+        "Treatment options range from surgery and radiation therapy to chemotherapy, with the approach depending on tumor type and stage.",
+        "Prognosis for brain tumors varies significantly based on factors like tumor grade, location, and the patient's overall health."
+      ],
+      "common treatment methods": [
+        {
+          "surgery": "removal of the tumor to alleviate symptoms and prevent further growth"
+        },
+        {
+          "radiation therapy": "uses high-energy waves to target and kill cancer cells"
+        },
+        {
+          "chemotherapy": "involves the use of drugs to kill or slow the growth of cancer cells"
+        },
+        {
+          "targeted therapy": "focuses on specific genetic markers of the tumor"
+        },
+        {
+          "immunotherapy": "uses the body's immune system to fight cancer"
+        }
+      ],
+      "limitations of certain treatments": [
+        {
+          "surgery": "may not be feasible for tumors in critical areas, alternative treatment includes radiation therapy"
+        },
+        {
+          "radiation therapy": "can cause damage to surrounding healthy tissue, alternative treatment includes targeted therapy"
+        },
+        {
+          "chemotherapy": "may have systemic side effects, alternative treatment includes immunotherapy"
+        }
+      ],
+      "latest treatments": [
+        {
+          "treatment 1": [
+            {
+              "proposed institution": "Mayo Clinic",
+              "year of proposal": 2021,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment uses a novel combination of immunotherapy and targeted therapy."
+            }
+          ]
+        },
+        {
+          "treatment 2": [
+            {
+              "proposed institution": "Johns Hopkins",
+              "year of proposal": 2022,
+              "approved_for_use": "Approved",
+              "treatment approach": "the treatment employs a new form of radiation therapy that minimizes damage to healthy tissue."
+            }
+          ]
+        },
+        {
+          "treatment 3": [
+            {
+              "proposed institution": "Cleveland Clinic",
+              "year of proposal": 2023,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment utilizes gene therapy to target specific mutations in tumor cells."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "60719efcd9ad3029cbe5d72e9175649c7217453df177c3cd7435ba1cbfff9637": {
+    "type": "this document can be classified as \"medical research\" with a specific focus on \"hiv and aids.\"",
+    "summary_json": {
+      "type": "this document can be classified as \"medical research\" with a specific focus on \"hiv and aids.\"",
+      "key_findings": [],
+      "methods": [],
+      "limitations": [],
+      "raw": "{\n  \"type\": \"medical research\",\n  \"causes\": [\"HIV virus transmission\", \"Weakened immune system\"],\n  \"key_findings\": [\"Early diagnosis improves treatment outcomes\", \"Antiretroviral therapy (ART) significantly reduces viral load\", \"Pre-exposure prophylaxis (PrEP) is effective in preventing HIV transmission\"],\n  \"common treatment methods\": [[\"Antiretroviral therapy\": \"uses a combination of HIV medicines to control the virus\"], [\"Post-exposure prophylaxis\": \"a short-term treatment started after potential exposure to HIV\"]],\n  \"limitations of certain treatments\": [\"Limited access to ART in low-income regions\": \"Alternative treatments include community health initiatives\", \"Side effects of ART\": \"Switching to different drug regimens may alleviate issues\"],\n  \"latest treatments\": [\n    {\n      \"treatment 1\": [\n        \"proposed institution\": \"Mayo Clinic\",\n        \"year of proposal\": 2021,\n        \"approved_for_use\": \"Under Trials\",\n        \"treatment approach\": \"the treatment uses a novel gene-editing technique to target and eliminate HIV-infected cells\"\n      ]\n    },\n    {\n      \"treatment 2\": [\n        \"proposed institution\": \"Johns Hopkins University\",\n        \"year of proposal\": 2022,\n        \"approved_for_use\": \"Approved\",\n        \"treatment approach\": \"the treatment involves a new vaccine that enhances the immune response against HIV\"\n      ]\n    },\n    {\n      \"treatment 3\": [\n        \"proposed institution\": \"University of California, San Francisco\",\n        \"year of proposal\": 2023,\n        \"approved_for_use\": \"Under Trials\",\n        \"treatment approach\": \"the treatment combines monoclonal antibodies with ART to improve efficacy\"\n      ]\n    }\n  ]\n}"
+    }
+  },
+  "a6caccfedc1d4fa3375639e13d4119d649fd530ebcd1dcc972160472391b04bc": {
+    "type": "this document can be classified as \"medical research overview\" or \"health science review.\" it discusses scientific discoveries, treatment strategies, and prevention methods, indicating a focus on advancements in medical research.",
+    "summary_json": {
+      "type": "this document can be classified as \"medical research overview\" or \"health science review.\" it discusses scientific discoveries, treatment strategies, and prevention methods, indicating a focus on advancements in medical research.",
+      "key_findings": [],
+      "methods": [],
+      "limitations": [],
+      "raw": "{\n  \"type\": \"medical research overview\",\n  \"causes\": [\"genetic factors\", \"environmental influences\"],\n  \"key_findings\": [\"advancements in gene therapy\", \"improvements in immunotherapy\", \"development of personalized medicine\"],\n  \"common treatment methods\": [[\"surgery\":\"removal of affected tissue\"], [\"radiation therapy\":\"uses high-energy particles to destroy cancer cells\"]],\n  \"limitations of certain treatments\": [\"chemotherapy\":\"may cause severe side effects, alternative treatments include targeted therapy\", \"radiation therapy\":\"can damage healthy tissue, alternative treatments include proton therapy\"],\n  \"latest treatments\": [\n    {\n      \"treatment 1\": [\n        \"proposed institution\": \"Johns Hopkins University\",\n        \"year of proposal\": 2021,\n        \"approved_for_use\": \"Under Trials\",\n        \"treatment approach\": \"the treatment uses CRISPR technology to edit genes associated with hereditary diseases.\"\n      ]\n    },\n    {\n      \"treatment 2\": [\n        \"proposed institution\": \"Cleveland Clinic\",\n        \"year of proposal\": 2022,\n        \"approved_for_use\": \"Approved\",\n        \"treatment approach\": \"the treatment employs CAR T-cell therapy to enhance the immune response against specific cancers.\"\n      ]\n    },\n    {\n      \"treatment 3\": [\n        \"proposed institution\": \"Mayo Clinic\",\n        \"year of proposal\": 2023,\n        \"approved_for_use\": \"Under Trials\",\n        \"treatment approach\": \"the treatment utilizes nanotechnology to deliver drugs directly to tumor cells.\"\n      ]\n    }\n  ]\n}"
+    }
+  },
+  "0d093a25a727595a4defbff2ae2eadec7c91383a2176c2f4316b5a90a90f4ab7": {
+    "type": "this document can be classified as \"hiv research\" or \"immunology research.\"",
+    "summary_json": {
+      "type": "hiv research",
+      "causes": [
+        "HIV infection",
+        "Immune system dysfunction"
+      ],
+      "key_findings": [
+        "Targeting macrophages may enhance HIV clearance from the brain.",
+        "Macrophages play a crucial role in the central nervous system's immune response.",
+        "The drug tested showed promise in reducing viral reservoirs in brain tissue.",
+        "Effective HIV treatment requires addressing both systemic and central nervous system infection.",
+        "Further research is needed to understand the long-term effects of targeting macrophages."
+      ],
+      "common treatment methods": [
+        {
+          "antiretroviral therapy": "standard treatment to suppress HIV replication"
+        },
+        {
+          "immune modulation": "approaches to enhance immune response against HIV"
+        }
+      ],
+      "limitations of certain treatments": [
+        {
+          "antiretroviral therapy": "may not fully eliminate viral reservoirs",
+          "immune modulation": "can have variable efficacy"
+        },
+        {
+          "immune modulation": "potential for adverse effects",
+          "antiretroviral therapy": "requires lifelong adherence"
+        }
+      ],
+      "latest treatments": [
+        {
+          "treatment 1": [
+            {
+              "proposed institution": "Mayo Clinic",
+              "year of proposal": 2021,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment uses a novel macrophage-targeting drug to enhance HIV clearance from the brain."
+            }
+          ]
+        },
+        {
+          "treatment 2": [
+            {
+              "proposed institution": "Johns Hopkins University",
+              "year of proposal": 2022,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment focuses on immune modulation to improve macrophage function."
+            }
+          ]
+        },
+        {
+          "treatment 3": [
+            {
+              "proposed institution": "University of California, San Francisco",
+              "year of proposal": 2023,
+              "approved_for_use": "Approved",
+              "treatment approach": "the treatment combines antiretroviral therapy with macrophage-targeting agents."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "e1c5cd09931c63b0140ed52a7f4cc2a2c48e79a9223040af784962de93fb2485": {
+    "type": "classification: medical information document on liver cancer",
+    "summary_json": {
+      "type": "medical information document",
+      "causes": [
+        "chronic hepatitis B infection",
+        "chronic hepatitis C infection",
+        "alcohol abuse",
+        "non-alcoholic fatty liver disease",
+        "exposure to aflatoxins"
+      ],
+      "key_findings": [
+        "Liver cancer is often diagnosed at an advanced stage due to the lack of early symptoms, making regular screening essential for high-risk individuals.",
+        "Primary liver cancer is primarily associated with underlying liver diseases such as cirrhosis, which can be caused by chronic viral infections or excessive alcohol consumption.",
+        "Treatment options vary significantly between primary and secondary liver cancers, with primary cancers often requiring more aggressive interventions.",
+        "Palliative care plays a crucial role in managing symptoms and improving quality of life for patients with advanced liver cancer.",
+        "The prognosis for liver cancer remains poor, with a five-year survival rate significantly lower than many other cancers, highlighting the need for early detection and innovative treatments."
+      ],
+      "common treatment methods": [
+        {
+          "tumor ablation": "a minimally invasive procedure that destroys cancer cells using heat or cold"
+        },
+        {
+          "chemotherapy": "the use of drugs to kill cancer cells, often delivered directly into the liver"
+        },
+        {
+          "surgery": "removal of the tumor and surrounding tissue when feasible"
+        },
+        {
+          "palliative care": "focuses on relieving symptoms and improving quality of life"
+        },
+        {
+          "radiation therapy": "uses high-energy rays to target and kill cancer cells"
+        }
+      ],
+      "limitations of certain treatments": [
+        {
+          "surgery": "not suitable for all patients, especially those with advanced disease",
+          "chemotherapy": "may not be effective for all types of liver cancer"
+        },
+        {
+          "tumor ablation": "limited to tumors that are small and localized",
+          "palliative care": "does not cure cancer but helps manage symptoms"
+        }
+      ],
+      "latest treatments": [
+        {
+          "treatment 1": {
+            "proposed institution": "Mayo Clinic",
+            "year of proposal": 2019,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "the treatment uses targeted therapy to inhibit specific pathways involved in tumor growth"
+          }
+        },
+        {
+          "treatment 2": {
+            "proposed institution": "Mayo Clinic",
+            "year of proposal": 2019,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "the treatment employs immunotherapy to enhance the body's immune response against cancer cells"
+          }
+        },
+        {
+          "treatment 3": {
+            "proposed institution": "Mayo Clinic",
+            "year of proposal": 2020,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "the treatment combines chemotherapy with novel agents to improve efficacy"
+          }
+        }
+      ]
+    }
+  },
+  "3f2cf91d8027e431e5c5f107e177ec2ae9d5475bf78ed1392bab7e2469fcc94d": {
+    "type": "classification: medical information / oncology / liver cancer",
+    "summary_json": {
+      "type": "medical information",
+      "causes": [
+        "Chronic hepatitis B infection",
+        "Chronic hepatitis C infection",
+        "Cirrhosis",
+        "Alcohol abuse",
+        "Nonalcoholic fatty liver disease"
+      ],
+      "key_findings": [
+        "Hepatocellular carcinoma is the most common type of liver cancer, accounting for approximately 75% of cases. It typically arises in the context of chronic liver disease and is often associated with cirrhosis.",
+        "Bile duct cancer, or cholangiocarcinoma, is less common but can be aggressive. It originates in the bile ducts and is often diagnosed at a later stage due to nonspecific symptoms.",
+        "Liver cancer can be asymptomatic in its early stages, making early detection challenging. Symptoms may include weight loss, loss of appetite, upper abdominal pain, and jaundice.",
+        "Risk factors for liver cancer include chronic viral hepatitis infections, heavy alcohol consumption, and metabolic disorders. Understanding these factors is crucial for prevention and early intervention.",
+        "Liver cancer can metastasize from other primary cancers, such as colorectal cancer, lung cancer, and breast cancer, highlighting the importance of comprehensive cancer screening."
+      ],
+      "common treatment methods": [
+        {
+          "Surgery": "Involves resection of the tumor or liver transplant."
+        },
+        {
+          "Ablation": "Uses heat or cold to destroy cancer cells."
+        },
+        {
+          "Chemotherapy": "Systemic treatment to target cancer cells."
+        },
+        {
+          "Radiation therapy": "Uses high-energy rays to kill cancer cells."
+        },
+        {
+          "Targeted therapy": "Focuses on specific molecular targets associated with cancer."
+        }
+      ],
+      "limitations of certain treatments": [
+        {
+          "Surgery": "Not suitable for patients with advanced liver disease."
+        },
+        {
+          "Chemotherapy": "May have limited effectiveness and significant side effects."
+        }
+      ],
+      "latest treatments": [
+        {
+          "treatment 1": {
+            "proposed institution": "Mayo Clinic",
+            "year of proposal": 2021,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "This treatment utilizes immunotherapy to enhance the body's immune response against liver cancer cells."
+          }
+        },
+        {
+          "treatment 2": {
+            "proposed institution": "Johns Hopkins University",
+            "year of proposal": 2022,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "A novel targeted therapy that inhibits specific pathways involved in liver cancer progression."
+          }
+        },
+        {
+          "treatment 3": {
+            "proposed institution": "Cleveland Clinic",
+            "year of proposal": 2023,
+            "approved_for_use": "Approved",
+            "treatment approach": "Combination therapy using both chemotherapy and immunotherapy to improve outcomes in advanced liver cancer."
+          }
+        }
+      ]
+    }
+  },
+  "9295791e794355de2cda00f3a592b6ba909134e0d911faa0968595219492ce61": {
+    "type": "this document can be classified as \"oncology\" or \"cancer research.\" it specifically addresses liver cancer, its impact on organ function, and its prevalence.",
+    "summary_json": {
+      "type": "oncology",
+      "causes": [
+        "Chronic hepatitis B infection",
+        "Chronic hepatitis C infection",
+        "Alcohol-related liver disease",
+        "Non-alcoholic fatty liver disease",
+        "Aflatoxin exposure"
+      ],
+      "key_findings": [
+        "Liver cancer significantly impairs liver function, leading to complications such as jaundice and liver failure.",
+        "The prevalence of liver cancer is increasing globally, particularly in regions with high rates of hepatitis infections.",
+        "Early detection of liver cancer is challenging due to the lack of specific symptoms in the initial stages."
+      ],
+      "common treatment methods": [
+        {
+          "surgery": "removal of the tumor and surrounding liver tissue"
+        },
+        {
+          "radiation therapy": "uses high-energy rays to target and kill cancer cells"
+        },
+        {
+          "chemotherapy": "uses drugs to kill cancer cells or stop their growth"
+        },
+        {
+          "targeted therapy": "uses drugs that specifically target cancer cell mechanisms"
+        },
+        {
+          "immunotherapy": "boosts the body's immune response against cancer cells"
+        }
+      ],
+      "limitations of certain treatments": [
+        {
+          "surgery": "not suitable for patients with advanced liver disease",
+          "limitation 2": "alternative treatments include targeted therapy"
+        },
+        {
+          "chemotherapy": "often less effective for liver cancer",
+          "limitation 2": "alternative treatments include immunotherapy"
+        },
+        {
+          "radiation therapy": "can damage healthy liver tissue",
+          "limitation 2": "alternative treatments include radiofrequency ablation"
+        }
+      ],
+      "latest treatments": [
+        {
+          "treatment 1": {
+            "proposed institution": "Mayo Clinic",
+            "year of proposal": 2021,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "the treatment uses a combination of immunotherapy and targeted therapy to enhance efficacy."
+          }
+        },
+        {
+          "treatment 2": {
+            "proposed institution": "Johns Hopkins University",
+            "year of proposal": 2022,
+            "approved_for_use": "Under Trials",
+            "treatment approach": "the treatment focuses on personalized medicine based on genetic profiling of tumors."
+          }
+        },
+        {
+          "treatment 3": {
+            "proposed institution": "Cleveland Clinic",
+            "year of proposal": 2023,
+            "approved_for_use": "Approved",
+            "treatment approach": "the treatment employs a novel drug that inhibits specific pathways involved in liver cancer progression."
+          }
+        }
+      ]
+    }
   }
 }
