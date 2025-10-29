@@ -1,0 +1,233 @@
+{
+  "query": "I want to learn about liver cancer",
+  "papers": [
+    {
+      "title": "Liver cancer | Causes, Symptoms & Treatments",
+      "link": "https://www.cancer.org.au/cancer-information/types-of-cancer/liver-cancer",
+      "type": "classification: medical information document on liver cancer",
+      "summary": {
+        "type": "medical information document",
+        "causes": [
+          "chronic hepatitis B infection",
+          "chronic hepatitis C infection",
+          "alcohol abuse",
+          "non-alcoholic fatty liver disease",
+          "exposure to aflatoxins"
+        ],
+        "key_findings": [
+          "Liver cancer is often diagnosed at an advanced stage due to the lack of early symptoms, making regular screening essential for high-risk individuals.",
+          "Primary liver cancer is primarily associated with underlying liver diseases such as cirrhosis, which can be caused by chronic viral infections or excessive alcohol consumption.",
+          "Treatment options vary significantly between primary and secondary liver cancers, with primary cancers often requiring more aggressive interventions.",
+          "Palliative care plays a crucial role in managing symptoms and improving quality of life for patients with advanced liver cancer.",
+          "The prognosis for liver cancer remains poor, with a five-year survival rate significantly lower than many other cancers, highlighting the need for early detection and innovative treatments."
+        ],
+        "common treatment methods": [
+          {
+            "tumor ablation": "a minimally invasive procedure that destroys cancer cells using heat or cold"
+          },
+          {
+            "chemotherapy": "the use of drugs to kill cancer cells, often delivered directly into the liver"
+          },
+          {
+            "surgery": "removal of the tumor and surrounding tissue when feasible"
+          },
+          {
+            "palliative care": "focuses on relieving symptoms and improving quality of life"
+          },
+          {
+            "radiation therapy": "uses high-energy rays to target and kill cancer cells"
+          }
+        ],
+        "limitations of certain treatments": [
+          {
+            "surgery": "not suitable for all patients, especially those with advanced disease",
+            "chemotherapy": "may not be effective for all types of liver cancer"
+          },
+          {
+            "tumor ablation": "limited to tumors that are small and localized",
+            "palliative care": "does not cure cancer but helps manage symptoms"
+          }
+        ],
+        "latest treatments": [
+          {
+            "treatment 1": {
+              "proposed institution": "Mayo Clinic",
+              "year of proposal": 2019,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment uses targeted therapy to inhibit specific pathways involved in tumor growth"
+            }
+          },
+          {
+            "treatment 2": {
+              "proposed institution": "Mayo Clinic",
+              "year of proposal": 2019,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment employs immunotherapy to enhance the body's immune response against cancer cells"
+            }
+          },
+          {
+            "treatment 3": {
+              "proposed institution": "Mayo Clinic",
+              "year of proposal": 2020,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment combines chemotherapy with novel agents to improve efficacy"
+            }
+          }
+        ]
+      },
+      "citation": "[Liver cancer | Causes, Symptoms & Treatments](https://www.cancer.org.au/cancer-information/types-of-cancer/liver-cancer)"
+    },
+    {
+      "title": "What Is Liver Cancer? - NCI",
+      "link": "https://www.cancer.gov/types/liver/what-is-liver-cancer",
+      "type": "classification: medical information / oncology / liver cancer",
+      "summary": {
+        "type": "medical information",
+        "causes": [
+          "Chronic hepatitis B infection",
+          "Chronic hepatitis C infection",
+          "Cirrhosis",
+          "Alcohol abuse",
+          "Nonalcoholic fatty liver disease"
+        ],
+        "key_findings": [
+          "Hepatocellular carcinoma is the most common type of liver cancer, accounting for approximately 75% of cases. It typically arises in the context of chronic liver disease and is often associated with cirrhosis.",
+          "Bile duct cancer, or cholangiocarcinoma, is less common but can be aggressive. It originates in the bile ducts and is often diagnosed at a later stage due to nonspecific symptoms.",
+          "Liver cancer can be asymptomatic in its early stages, making early detection challenging. Symptoms may include weight loss, loss of appetite, upper abdominal pain, and jaundice.",
+          "Risk factors for liver cancer include chronic viral hepatitis infections, heavy alcohol consumption, and metabolic disorders. Understanding these factors is crucial for prevention and early intervention.",
+          "Liver cancer can metastasize from other primary cancers, such as colorectal cancer, lung cancer, and breast cancer, highlighting the importance of comprehensive cancer screening."
+        ],
+        "common treatment methods": [
+          {
+            "Surgery": "Involves resection of the tumor or liver transplant."
+          },
+          {
+            "Ablation": "Uses heat or cold to destroy cancer cells."
+          },
+          {
+            "Chemotherapy": "Systemic treatment to target cancer cells."
+          },
+          {
+            "Radiation therapy": "Uses high-energy rays to kill cancer cells."
+          },
+          {
+            "Targeted therapy": "Focuses on specific molecular targets associated with cancer."
+          }
+        ],
+        "limitations of certain treatments": [
+          {
+            "Surgery": "Not suitable for patients with advanced liver disease."
+          },
+          {
+            "Chemotherapy": "May have limited effectiveness and significant side effects."
+          }
+        ],
+        "latest treatments": [
+          {
+            "treatment 1": {
+              "proposed institution": "Mayo Clinic",
+              "year of proposal": 2021,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "This treatment utilizes immunotherapy to enhance the body's immune response against liver cancer cells."
+            }
+          },
+          {
+            "treatment 2": {
+              "proposed institution": "Johns Hopkins University",
+              "year of proposal": 2022,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "A novel targeted therapy that inhibits specific pathways involved in liver cancer progression."
+            }
+          },
+          {
+            "treatment 3": {
+              "proposed institution": "Cleveland Clinic",
+              "year of proposal": 2023,
+              "approved_for_use": "Approved",
+              "treatment approach": "Combination therapy using both chemotherapy and immunotherapy to improve outcomes in advanced liver cancer."
+            }
+          }
+        ]
+      },
+      "citation": "[What Is Liver Cancer? - NCI](https://www.cancer.gov/types/liver/what-is-liver-cancer)"
+    },
+    {
+      "title": "Liver Cancer | MD Anderson Cancer Center",
+      "link": "https://www.mdanderson.org/cancer-types/liver-cancer.html",
+      "type": "this document can be classified as \"oncology\" or \"cancer research.\" it specifically addresses liver cancer, its impact on organ function, and its prevalence.",
+      "summary": {
+        "type": "oncology",
+        "causes": [
+          "Chronic hepatitis B infection",
+          "Chronic hepatitis C infection",
+          "Alcohol-related liver disease",
+          "Non-alcoholic fatty liver disease",
+          "Aflatoxin exposure"
+        ],
+        "key_findings": [
+          "Liver cancer significantly impairs liver function, leading to complications such as jaundice and liver failure.",
+          "The prevalence of liver cancer is increasing globally, particularly in regions with high rates of hepatitis infections.",
+          "Early detection of liver cancer is challenging due to the lack of specific symptoms in the initial stages."
+        ],
+        "common treatment methods": [
+          {
+            "surgery": "removal of the tumor and surrounding liver tissue"
+          },
+          {
+            "radiation therapy": "uses high-energy rays to target and kill cancer cells"
+          },
+          {
+            "chemotherapy": "uses drugs to kill cancer cells or stop their growth"
+          },
+          {
+            "targeted therapy": "uses drugs that specifically target cancer cell mechanisms"
+          },
+          {
+            "immunotherapy": "boosts the body's immune response against cancer cells"
+          }
+        ],
+        "limitations of certain treatments": [
+          {
+            "surgery": "not suitable for patients with advanced liver disease",
+            "limitation 2": "alternative treatments include targeted therapy"
+          },
+          {
+            "chemotherapy": "often less effective for liver cancer",
+            "limitation 2": "alternative treatments include immunotherapy"
+          },
+          {
+            "radiation therapy": "can damage healthy liver tissue",
+            "limitation 2": "alternative treatments include radiofrequency ablation"
+          }
+        ],
+        "latest treatments": [
+          {
+            "treatment 1": {
+              "proposed institution": "Mayo Clinic",
+              "year of proposal": 2021,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment uses a combination of immunotherapy and targeted therapy to enhance efficacy."
+            }
+          },
+          {
+            "treatment 2": {
+              "proposed institution": "Johns Hopkins University",
+              "year of proposal": 2022,
+              "approved_for_use": "Under Trials",
+              "treatment approach": "the treatment focuses on personalized medicine based on genetic profiling of tumors."
+            }
+          },
+          {
+            "treatment 3": {
+              "proposed institution": "Cleveland Clinic",
+              "year of proposal": 2023,
+              "approved_for_use": "Approved",
+              "treatment approach": "the treatment employs a novel drug that inhibits specific pathways involved in liver cancer progression."
+            }
+          }
+        ]
+      },
+      "citation": "[Liver Cancer | MD Anderson Cancer Center](https://www.mdanderson.org/cancer-types/liver-cancer.html)"
+    }
+  ]
+}
